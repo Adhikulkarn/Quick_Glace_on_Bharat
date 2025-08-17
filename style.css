@@ -3,6 +3,7 @@
     --background_color_two: #F5BABB;
     --text_color: #064232;
     --white: #FFFFFF;
+    --black: #000000;
 }
 
 body{
@@ -56,4 +57,26 @@ body{
     padding: 0;
     opacity: 80%;
     height: 270px;
+}
+
+.motto-h1{
+    padding: 0;
+    margin: 15px;
+    color: var(--text_color);
+    font-family: 'Inika';
+}
+
+.motto-container{
+    display: flex;
+    background-color: var(--background_color_two);
+    /* opacity: 30%; */
+    margin: 15px;
+    padding : 0;
+    border-radius: 20px;
+}
+
+.motto-paragraph{
+    padding: 10px;
+    margin: 10px;
+    color: var(--text_color);
 }

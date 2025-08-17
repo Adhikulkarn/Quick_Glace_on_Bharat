@@ -1,0 +1,59 @@
+:root{
+    --background_color_one: #FFF5F2;
+    --background_color_two: #F5BABB;
+    --text_color: #064232;
+    --white: #FFFFFF;
+}
+
+body{
+    background-color: var(--background_color_one);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: var(--background_color_two);
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.h1{
+    color: var(--text_color);
+    text-align: center;
+    font-family: 'Instrument Serif', serif;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.h3{
+    color: var(--text_color);
+    text-align: center;
+    font-family: 'Inika';
+    margin: 0;
+    padding: 0;
+}
+
+.hero-img{
+    margin: 0;
+    padding: 0;
+    opacity: 80%;
+    height: 270px;
+}

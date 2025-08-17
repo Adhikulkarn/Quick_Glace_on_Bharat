@@ -3,6 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const navList = document.querySelector('.nav-list');
 
     navToggleBtn.addEventListener('click', () => {
-        navList.classList.toggle('nav-list-active');
+        navList.classList.toggle('active');
     });
 });

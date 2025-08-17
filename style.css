@@ -31,6 +31,10 @@ body{
     text-decoration: none;
     list-style: none;
 }
+a{
+    text-decoration: none;
+    color: var(--text_color);
+}
 
 .nav-item{
     margin: 0 20px;
@@ -51,6 +55,13 @@ body{
     height: 3px;
     background-color: var(--text_color);
 }
+
+#motto,
+#abt-author,
+#main {
+  scroll-margin-top: 140px;
+}
+
 
 .logo{
     width: 130px;
@@ -134,16 +145,27 @@ body{
         justify-content: space-around;
         margin: 10px;
     }
+
     .nav-list{
         display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
+
     .nav-list.active{
         display: flex;
-        flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 140px; /* pushes below nav bar */
         left: 0;
         width: 100%;
         background-color: var(--background_color_two);
+        padding: 15px 0;
+    }
+
+    .nav-item{
+        text-align: center;
+        margin: 10px 0;
     }
 }

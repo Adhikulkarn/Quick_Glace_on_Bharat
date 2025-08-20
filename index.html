@@ -3,73 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Quick Glance About Bharat</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Inika:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="nav" id="nav-bar">
-        <img src="logo.png" alt="Logo" class="logo"> <!--have to add nav bar elements -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <nav class="nav" id="nav-bar">
+        <img src="logo.png" alt="Logo" class="logo">
         <ul class="nav-list">
             <li class="nav-item"><a href="#main">Home</a></li>
             <li class="nav-item"><a href="#motto">Motto</a></li>
             <li class="nav-item"><a href="#auth">About Author</a></li>
-            <!-- <li class="nav-item"><a href="#contact">Contact</a></li> -->
         </ul>
 
-        <button class="nav-toggle-btn">
+        <button class="nav-toggle-btn" id="navToggle" aria-label="Toggle navigation menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
-    </div>
+    </nav>
 
-    <div class="container" id="main">
+    <main class="container" id="main">
         <h1 class="h1"><u>QUICK GLANCE ABOUT BHARAT</u></h1>
-        <h3 class="h3">Its a hand written collection</h3>
-        <img  src="./images/hero-img.png" alt="Hero Image" class="hero-img">    
-    </div>
+        <h3 class="h3">It's a hand written collection</h3>
+        <img src="./images/hero-img.png" alt="Bharat Heritage Collection" class="hero-img">    
+    </main>
 
-    <div class="motto" id="motto">
-        <h2 class="motto-h2">Motto: Sathyameva Jayathe</h2>
+    <section class="motto" id="motto">
+        <h2 class="motto-h2">Motto: Satyameva Jayate</h2>
         <div class="motto-container">
             <div class="motto-text">
                 <p class="motto-paragraph">
-                    The main motto of this project is <b>‘Sathyameva Jayathe’</b>.
-                    <br>
-                    <br>
-                    This project, named “QUICK GLANCE ABOUT BHARAT,” was launched on May 2nd, 2024, 
+                    The main motto of this project is <b>'Satyameva Jayate'</b>.
+                    <br><br>
+                    This project, named "QUICK GLANCE ABOUT BHARAT," was launched on May 2nd, 2024, 
                     driven by the motivation to preserve India's heritage, much like the ancient 
                     manuscripts of Bharat. These handwritten records embody the nation's identity 
                     by documenting a vast array of subjects, from the Vedas and Upanishads to epics 
                     like the Ramayana and Mahabharata, Ayurveda, and various art forms.
-                    <br>
-                    <br>
+                    <br><br>
                     The project aims to provide a comprehensive and verified repository of information about India, 
                     including famous personalities, notable places, and museums etc. A key element of its uniqueness 
                     is the rigorous verification process: all information is meticulously authenticated and officially 
                     sealed with the signatures of the relevant departments and individuals.
-                    <br>
-                    <br>
-                    This initiative seeks to be a modern-day manuscript, making India’s rich knowledge, culture, and 
+                    <br><br>
+                    This initiative seeks to be a modern-day manuscript, making India's rich knowledge, culture, and 
                     wisdom accessible and trustworthy for future generations.
                 </p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="author" id="abt-author">
-        <h2 class="author-h2" id="auth">About the Author</h2>
+    <section class="author" id="auth">
+        <h2 class="author-h2">About the Author</h2>
         <div class="author-container">
             <div class="author-text">
                 <p class="author-paragraph">
-                    
+                    [Author information to be added - this section is ready for content about the project creator, their background, motivation, and vision for preserving Bharat's cultural heritage through this comprehensive documentation project.]
                 </p>
             </div>
         </div>
-    </div>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
